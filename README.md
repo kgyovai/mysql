@@ -6,8 +6,8 @@ by MySQL using Spring Data (JPA).
 ## To test a specific version of MySQL
 ```
 docker pull mysql:<version>
-docker run -e MYSQL_DATABASE=test -e MYSQL_USER=test -e MYSQL_PASSWORD=test -e MYSQL_ROOT_PASSWORD=root -p 
-33060:33060 -p 3306:3306 -d mysql:<version>
+
+docker run -e MYSQL_DATABASE=test -e MYSQL_USER=test -e MYSQL_PASSWORD=test -e MYSQL_ROOT_PASSWORD=root -p 33060:33060 -p 3306:3306 -d mysql:<version>
 ```
 
 ## Then execute the test
